@@ -13,6 +13,7 @@ import java.util.List;
 @Table(name = "project")
 public class ProjectEntity {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int proj_pk_num; //프로젝트 번호 [PK, INT]
     private String proj_name; //프로젝트 이름 [VARCHAR]
     private String proj_desc; //프로젝트 설명 [TEXT]

@@ -13,6 +13,7 @@ import java.util.List;
 @Table(name = "post")
 public class PostEntity {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int post_pk_num; //게시글 번호 [PK, INT, INCREMENT]
     private int post_kind; //게시글 유형 [INT]
     private String post_targetnum; //게시글 대상 사원번호 [VARCHAR] => String으로 작성 이후 데이터사용은 String tokenizer 사용

@@ -11,6 +11,7 @@ import lombok.Setter;
 public class FavoritesEntity {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int favor_id;
 
     @ManyToOne

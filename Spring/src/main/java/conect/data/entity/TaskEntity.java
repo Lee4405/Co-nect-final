@@ -13,6 +13,7 @@ import java.util.List;
 @Table(name="task")
 public class TaskEntity {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int task_pk_num; //업무 고유 식별자 [PK, INT, INCREMENT]
     private String task_title; //업무 제목 [VARCHAR]
     private String task_desc; //업무 설명 {TEXT]
