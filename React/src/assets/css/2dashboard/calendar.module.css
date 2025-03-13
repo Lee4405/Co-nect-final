@@ -1,0 +1,110 @@
+/*function*/
+.calendar {
+  margin-top: "2rem";
+  max-height: 700px;
+  overflow-y: auto;
+}
+.calendar::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  min-width: 500px;
+}
+.card2 {
+  min-width: 200px;
+  margin-bottom: 10px;
+}
+.cardbody {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/*schedule*/
+.title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.subtitle {
+  font-size: 1.1rem;
+}
+.itembox {
+  text-align: center;
+}
+.item {
+  white-space: pre-wrap;
+}
+.sub {
+  font-size: 0.8rem;
+}
+.badge:hover{
+  cursor: pointer;
+}
+/*share schedule*/
+.ul {
+  list-style-type: none;
+  margin:0px;
+}
+
+/*ScheduleCategory*/
+.colorBox {
+  width: 0.8em;       /* 너비 */
+  height: 0.8em;      /* 높이 */
+  border-radius: 50%; /* 모서리를 50%로 둥글게 */
+  display: inline-block; /* 한 줄에 배치 */
+}
+
+/*modal*/
+.modalCloseBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  color: #000;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.modalCloseBtn:hover {
+  text-decoration-line: none;
+}
+.modalCloseBtn:focus,
+.modalCloseBtn:active {
+  outline: none;
+  box-shadow: none;
+}
+.textinfo {
+  width: 100%;
+  color: #abababc8;
+  text-align: left;
+}
+.check{
+  margin-left : 10px;
+  margin-bottom: .5rem;
+  width : 1em;
+  height: 1em;
+}
+
+/*toast*/
+.toast {
+  width: auto;
+}
+.text {
+  font-size: 1rem;
+}
+.closeBtn {
+  font-size: 1rem;
+}
+.closeBtn:hover {
+  text-decoration-line: none;
+}
+.closeBtn:focus,
+.closeBtn:active {
+  outline: none;
+  box-shadow: none;
+}
+.toastContainer {
+  position: fixed;
+  bottom: 20px; /* 화면 하단에서 20px 위 */
+  right: 20px; /* 화면 오른쪽에서 20px 왼쪽 */
+  z-index: 1050; /* 다른 요소 위에 표시되도록 z-index 설정 */
+}
