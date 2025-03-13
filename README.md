@@ -291,7 +291,7 @@ Spring/
 
 # 6. 화면설계서
 
-<a href="https://github.com/JKOVE94/Co-nect-final/blob/main/info/Co-nect%20ERD.png"/>화면설계서</a>
+<a href="https://github.com/JKOVE94/Co-nect-final/blob/main/info/Co-nect%20%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C.pdf"/>화면설계서</a>
 <br/>
 
 # 7. Development Workflow (개발 워크플로우)
